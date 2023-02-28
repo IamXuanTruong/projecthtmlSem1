@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "quisand";
+    src: url("../font/static/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "quisand2";
+    src: url("../font/static/Quicksand-Bold.ttf");
+}
+
+.banner{
+    position: relative;
+}
+.banner img{
+    height: 194px;
+    width: 100%;
+}
+.text-banner{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
+    font-family: "quisand2";
+}
+.text-banner a{
+    color: rgb(149, 149, 149);
+    text-decoration: none !important;
+}
+.text-banner a:hover{
+    color: #91AD41;
+}
+.text-banner span{
+    color: #91AD41 !important;
+}
+.all-pro{
+    margin: 10px 140px 10px 160px;
+    justify-content: space-between;
+}
+.product{
+    width: 272px;
+    max-height: 370px;
+    background: #F5F6FB;
+    transition: box-shadow .3s;
+    border: 1px solid #F5F6FB;
+   
+}
+.product:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.product img{
+    width: 100%; 
+ 
+}
+.product img:hover{
+    opacity: 0.5;
+}
+.tomato{
+    font-family: "quisand2";
+    margin-top: 15px;
+    font-size: 18px;
+}
+.price{
+    font-family: "quisand";
+    font-size: 18px;
+    color: #91AD41;
+    padding-top: 0px;
+}
+.deals-value .amount {text-decoration: line-through;}
+.woocommerce-Price-currencySymbol {margin-right: 10px;}
+.price-sale{
+    color: #8b8b99;
+}
+.filter{
+    width: 1190px;
+    justify-content: space-between;
+    margin: 20px auto;
+    border: #91AD41 1px solid;
+    font-family: "quisand"
+}
+.filter h4{
+    padding: 7px 10px;
+}
+.filter h4:hover{
+    color: #91AD41;
+}
+.filter span:hover{
+    color: #91AD41;
+}
+.checkb:hover{
+    color: #91AD41;
+}

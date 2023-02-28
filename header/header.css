@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "quisand";
+    src: url("../font/static/Quicksand-Medium.ttf");
+}
+*{
+    font-family: "quisand";
+}
+header{
+    margin: 26px 174px 26px 174px;
+    justify-content: space-between;
+}
+.logo img{
+    width: 204px;
+    max-height: 65px;
+    
+}
+.menu{
+    align-items: center;
+    margin-right: 200px;
+}
+.menu li .home{
+    color: #91AD41;
+}
+.menu li a{
+    color: #111;
+}
+.icon-header{
+    align-items: center;
+}
+.icon-header li{
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+i{
+    color: #111;
+}
+a:hover i{
+    color: red;
+}

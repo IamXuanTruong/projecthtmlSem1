@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "quisand";
+    src: url("../font/static/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "quisand2";
+    src: url("../font/static/Quicksand-Bold.ttf");
+}
+
+.banner{
+    position: relative;
+}
+.banner img{
+    height: 194px;
+    width: 100%;
+}
+.text-banner{
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    text-align: center;
+    font-family: "quisand2";
+}
+.text-banner a{
+    color: rgb(149, 149, 149);
+    text-decoration: none !important;
+}
+.text-banner a:hover{
+    color: #91AD41;
+}
+.text-banner span{
+    color: #91AD41 !important;
+}
+.text-blog{
+    width: 1170px;
+    margin: 30px auto;
+}
+.all-pro{
+    margin: 10px 140px 10px 160px;
+    justify-content: space-between;
+}
+.newspaper{
+    width: 360px ;
+    transition: box-shadow .3s;
+    border: 1px solid #F5F6FB;
+}
+.newspaper:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.newspaper img{
+    width: 358px;
+    height: 340px;
+}
+.new-text{
+    margin-left: 40px;
+    font-family: "quisand";
+}
+.date{
+    color: #91AD41;
+}
+.topic{
+    background-color: #F5F6FB;
+}
+.top-text{
+    font-family: "quisand2";
+    width: 300px;
+    text-align: center;
+    margin: 0px 30px 0px 30px !important;
+    padding-top: 15px;
+}
+.top-text1{
+    text-align: center;
+    font-family: "quisand";
+    color: #8b8b99;
+    font-size: 14px;
+    margin: 10px 29px 0px 29px !important;
+    padding-bottom: 40px;
+    text-align: center;
+}

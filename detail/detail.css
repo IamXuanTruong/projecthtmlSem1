@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "quisand";
+    src: url("../font/static/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "quisand2";
+    src: url("../font/static/Quicksand-Bold.ttf");
+}
+
+.banner{
+    position: relative;
+}
+.banner img{
+    height: 194px;
+    width: 100%;
+}
+.text-banner{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    text-align: center;
+    font-family: "quisand2";
+}
+.text-banner a{
+    color: rgb(149, 149, 149);
+    text-decoration: none !important;
+}
+.text-banner a:hover{
+    color: #91AD41;
+}
+.text-banner span{
+    color: #91AD41 !important;
+}
+.text-sp{
+    color: #91AD41;
+    font-size: 15px;
+}
+.text{
+    color: #91AD41;
+    
+}
+.text-dola{
+    text-decoration: underline;
+    font-size: 18px;
+    color: #91AD41;
+    padding-left: 2px;
+    font-weight: bold;
+}
+.text-detail{
+    color: rgba(0, 0, 0, 0.2);
+}
+.text-item{
+    font-weight: bold;
+}
+.btn-login{
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    width: 65%;
+    background: linear-gradient(to right, #A1A847, #F98C69);
+}
+:hover.btn-login{
+    color: #91AD41;
+    background: #fff;
+    border: 1px solid #91AD41;
+}
+.banner-icon1 {
+    width: 379px;
+    max-height: 379px;
+    background: #59CCA6;
+    position: relative;
+    opacity: 1;
+}
+
+.banner-icon1:hover {
+    opacity: 0.8;
+}
+
+.banner-icon2 {
+    width: 379px;
+    max-height: 379px;
+    background: #91AD41;
+    position: relative;
+    opacity: 1;
+}
+
+.banner-icon2:hover {
+    opacity: 0.8;
+}
+
+.banner-icon3 {
+    width: 379px;
+    max-height: 379px;
+    background: #E3B375;
+    position: relative;
+    opacity: 1;
+}
+
+.banner-icon3:hover {
+    opacity: 0.8;
+}
+
+.banner-icon4 {
+    width: 379px;
+    max-height: 379px;
+    background: #EF7F94;
+    position: relative;
+    opacity: 1;
+}
+
+.banner-icon4:hover {
+    opacity: 0.8;
+}
+
+.col-img1 {
+    max-height: 379px;
+    padding-left: 160px;
+
+}
+
+
+
+.col-img2 {
+    max-height: 379px;
+    padding-left: 148px;
+
+}
+
+.col-img3 {
+    max-height: 379px;
+    padding-left: 78px;
+}
+
+.col-img4 {
+    max-height: 379px;
+    padding-left: 152px;
+}
+
+.but {
+    position: absolute;
+    top: 81%;
+    left: 16%;
+
+}
+
+.but button {
+    background: #27272f;
+    border: #27272f 1px solid;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-family: "quisand";
+    font-size: 14px;
+}
+
+.but button:hover {
+    background-color: #91AD41;
+    border: #91AD41;
+    transition: 0.5s;
+
+}
+
+.condition {
+    font-size: 14px;
+    font-family: "quisand";
+    color: #8b8b99;
+    width: 860px;
+    margin: auto;
+}
+
+.text-gradiant {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(35deg, #91ad41, #ff8a6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "quisand2";
+}
+
+.sp {
+    width: 262px;
+}
+
+.sp img {
+    width: 141px;
+}
+
+.sp p {
+    font-family: "quisand2";
+}
+
+.sp span {
+    font-size: 14px;
+    font-family: "quisand";
+    color: #8b8b99;
+    width: 100px;
+}
+
+.classify {
+    margin-left: 460px;
+
+}
+
+.classify a {
+    padding: 7px 14px;
+    background: #91AD41;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.clas-menu {
+    padding-left: 10px;
+}
+
+.all-pro {
+    margin: 10px 140px 10px 160px;
+    justify-content: space-between;
+}
+
+.product {
+    width: 272px;
+    max-height: 370px;
+    background: #F5F6FB;
+    transition: box-shadow .3s;
+    border: 1px solid #F5F6FB;
+
+}
+
+.product:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.product img {
+    width: 100%;
+
+}
+
+.product img:hover {
+    opacity: 0.5;
+}
+
+.tomato {
+    font-family: "quisand2";
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.price {
+    font-family: "quisand";
+    font-size: 18px;
+    color: #91AD41;
+    padding-top: 0px;
+}
+
+.deals-value .amount {
+    text-decoration: line-through;
+}
+
+.woocommerce-Price-currencySymbol {
+    margin-right: 10px;
+}
+
+.price-sale {
+    color: #8b8b99;
+}
+img.img-defaut{
+    width: 95%;
+    height: 350px;
+}
+img.img-refunt{
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+a h4{
+    color: #111;
+    font-weight: bold;
+}
+a{
+    text-decoration: none !important;
+}
+.detail-product{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
